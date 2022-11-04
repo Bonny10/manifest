@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Manifest for FCE components-->
+
+<!-- Remotes definitions-->
+  <remote fetch="https://gerrit.pfa.fr.corp/a/products/tosca2/" name="tosca2-fce"/>
+
+<!-- ADSP Components -->
+  <project remote="tosca2-fce" name="integrity/ACDB" path="integrity/ACDB" revision="5aa4f96211e906c54b831076afbd41bac215fb2e" upstream="master" />
+  <project remote="tosca2-fce" name="adsp/ClaCapiV3SdgcMute" path="adsp/ClaCapiV3SdgcMute" revision="122af6f5a98491e50d98f710692fffa946f01b2f" upstream="master" />
+  <project remote="tosca2-fce" name="adsp/ClaCapiV3VolumeSdvc" path="adsp/ClaCapiV3VolumeSdvc" revision="7f8e790f3238abe23e17c77b3e17bac756f24879" upstream="master" />
+  <project remote="tosca2-fce" name="adsp/ClaCapiV3ChannelsMgt" path="adsp/ClaCapiV3ChannelsMgt" revision="b45565adfd4a43aeba9d1e827ab52422ac682a3c" upstream="master" />
+  <project remote="tosca2-fce" name="adsp/ClaCapiV3InterSource" path="adsp/ClaCapiV3InterSource" revision="ae5561dc466c2d92cd0a4f2bedc85637e81fd7f4" upstream="master" />
+  <project remote="tosca2-fce" name="adsp/ClaCapiV3Volume" path="adsp/ClaCapiV3Volume" revision="173da119301d959eba78578d18361da0df894079" upstream="master" />
+  <project remote="tosca2-fce" name="adsp/ClaCapiV3SoundGen" path="adsp/ClaCapiV3SoundGen" revision="9f9e6ffe0e93599adb8a17f06305e049504469e8" upstream="master" />
+  <project remote="tosca2-fce" name="adsp/ClaCapiV3DelayPhase" path="adsp/ClaCapiV3DelayPhase" revision="e8a52c9d2aaeb660813d7cbd1ca7f41c46df52e1" upstream="master" />
+
+<!-- Integrity Components-->
+  <project remote="tosca2-fce" name="integrity/A2b" path="integrity/A2b" revision="99d2b6533a90b22f421e073bda8f7c5d28e91ced" upstream="master" />
+  <project remote="tosca2-fce" name="integrity/IPCmsg" path="integrity/IPCmsg" revision="b45893289838ef22145789d15dca19bf6ebde930" upstream="master" />
+  <project remote="tosca2-fce" name="integrity/ToscaDiag" path="integrity/ToscaDiag" revision="26a5eae83473ebe1226472f847131268ba4f0cd4" upstream="master" />
+  <project remote="tosca2-fce" name="integrity/ToscaControl" path="integrity/ToscaControl" revision="438016d4cb25c1766b90a90aec7f2d2200a45e16" upstream="master" />
+  <project remote="tosca2-fce" name="integrity/AdspApi" path="integrity/AdspApi" revision="ded55523901ec257c9bb3142be9dc60734f4dc9e" upstream="master" />
+  <project remote="tosca2-fce" name="integrity/EsePlayer" path="integrity/EsePlayer" revision="8dfcf96fd9818e643a8f8e160f8307ff688913ed" upstream="master" />
+  <project remote="tosca2-fce" name="integrity/EssPlayer" path="integrity/EssPlayer" revision="0e68c8024ca821723a5f46d4c80e79b7aee83d2a" upstream="master" />
+  <project remote="tosca2-fce" name="integrity/AasPlayer" path="integrity/AasPlayer" revision="ee6fb811b2b632001a448734c95c7da57ece0fb2" upstream="master" />
+
+
+<!-- Integrity Test Apps-->
+  <project remote="tosca2-fce" name="integrity/TestApplication" path="integrity/TestApplication" revision="a0ecf464007e15215c56c3d892d25cf1bea744fb" upstream="master" />
+
+<!-- Arkamys Components-->
+  <project remote="tosca2-fce" name="vendors/Arkamys/High" path="vendors/Arkamys/High" revision="26b6af10a8cbc45c3bc92a3c8997111b6b91d7ca" upstream="master" />
+<!-- Cerence Component-->
+  <project remote="tosca2-fce" name="vendors/Cerence" path="vendors/Cerence" revision="da7beb5402703db88f23ab5ffc23e1234b7a3b14" upstream="master" />
+
+<!--Android API Component-->
+  <project remote="tosca2-fce" name="android/libAdspApi" path="android/libAdspApi" revision="80ab2f16343deadc24955c1893fbc6c95d9d28ed" upstream="master" />
+  <project remote="tosca2-fce" name="android/TestApplication" path="android/TestApplication" revision="8dc8b7d4edd8232ca7a8b2722b8907c4e69e85a4" upstream="master" />
+
+</manifest>
